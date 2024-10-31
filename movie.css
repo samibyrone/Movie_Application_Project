@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainContainer{
+    background-image: url("./images/cameron-peters-bx8DUf3w-EM-unsplash.jpg");
+    width: 100vw;
+}
+ul li{
+    list-style: none;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: 80px;
+    margin: auto;
+    color: white;
+}
+
+.navBarWrapper{
+    background-color: rgb(100, 100, 234)
+}
+
+ul{
+    display: flex;
+    width: 300px;
+    font-size: 22px;
+    justify-content: space-between;
+}
+
+#search{
+    width: 400px;
+    height: 40px;
+    margin: 10px 0px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.search{
+    width: 400px;
+    margin: auto;
+}
+
+.movie{
+    width: 400px;
+    /*margin: auto;*/
+}
+
+.movie img{
+    width: 400px;
+    height: 500px;
+}
+
+.titleRating{
+    display: flex;
+    color: red;
+    justify-content: space-between;
+}
+
+.overview{
+    color: blue;
+}
+
+.movieMainContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    width: 92vw;
+    margin: auto;
+}
